@@ -1,0 +1,91 @@
+.img{
+width: 20%;
+
+}
+.container-fluid{
+    background-color: #6f42c1;
+    height: 600px;
+    padding: 4px 30px;
+    
+}
+.Main{
+    color: white;
+    
+}
+.iphn{
+        width: 20%;
+        transform: rotate(20deg);
+        position: absolute;
+        right: 20%;
+        height: 50%;
+        
+      }
+  .nav-link{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  #img{
+    width:60px;
+    
+  }
+  .para{
+    margin: 0 10px;
+    box-shadow: 0px 49px 40px rgba(50, 50, 71, 0.05);
+    padding: 10%;
+  
+  }
+  .press-img {
+    width: 8%;
+    margin: 20px 40px;
+  }
+  #press {
+    padding: 5% 1%;
+    font-family: serif;
+    text-align: center;
+  }
+  .roundedimg{
+    border-radius: 50%;
+    height: 100px;
+    display: block;
+    margin: 30px auto;
+  }
+  .features{
+    padding: 100px;
+    position: relative;
+  }
+  .row{
+    padding:8px 150px ;
+  }
+  #apple{
+    width: 15%;
+    padding-bottom: 10px;
+    /* margin: 10px; */
+    margin-right: 8px;
+    
+  }
+  /* #btn{
+    width: 200px;
+    height: 28%;
+  } */
+  #playstore{
+    width: 20%;
+    padding: 5px;
+ /* color:white; */
+  }
+  /* #btn1{
+    width:180px;
+    height: 28%;
+} */
+.rowmove-left{
+    margin-top: 20px;
+}
+.download-button {
+    margin: 5% 3% 5% 0;
+  }
+
+@media(max-width:600px){
+ .container-fluid body{
+        grid-template-columns: 1fr;
+    }
+}
